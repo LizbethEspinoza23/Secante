@@ -1,0 +1,6 @@
+clc;
+fun = @(x) e.^(3*x)-4;
+a = 0;
+b = 1;
+
+[c,date,i] = secante(f,a,b,error=0.001,iter=1000)
